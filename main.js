@@ -22,7 +22,7 @@ viewer.camera.setView({
 });
 
 // KMLの読み込み
-viewer.dataSources.add(Cesium.KmlDataSource.load('kml/Building_No3-4-5.kmz'),{
+viewer.dataSources.add(Cesium.KmlDataSource.load('kml/Building_No3-4-5.kml'),{
          camera: viewer.scene.camera,
          canvas: viewer.scene.canvas
 });
